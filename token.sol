@@ -31,7 +31,7 @@ contract SafeMath {
 }
 
 
-contract ReliableToken is ERC20Interface, SafeMath {
+contract ZFnetworkToken is ERC20Interface, SafeMath {
     string public name;
     string public symbol;
     uint8 public decimals; // 18 decimals is the strongly suggested default, avoid changing it
@@ -47,8 +47,8 @@ contract ReliableToken is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "Reliable Network";
-        symbol = "RNA";
+        name = "ZF NETWORK Coin";
+        symbol = "ZFC";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
         
